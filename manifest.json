@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Winter Snow Effect",
+  "version": "1.0",
+  "description": "讓所有網頁都下起大雪",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
