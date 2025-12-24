@@ -1,8 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Winter Snow Effect",
-  "version": "1.0",
-  "description": "讓所有網頁都下起大雪",
+  "name": "Mood Engine", 
+  "version": "3.0",
+  "description": "使用雪花、火焰、櫻花等主題自訂您的瀏覽氛圍。",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_icon": {
+        "128": "icon-128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
